@@ -1,0 +1,51 @@
+h1 {
+  color: #F08;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+}
+
+
+
+.social-cards{
+  margin-left: 25%;
+  width: 50%;
+}
+
+.each-card{
+  border: solid 1px black;
+  padding: 5px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.social-image{
+  width: 100%;
+  height: 50vw;
+  object-fit: cover;
+
+}
+
+.comment{
+  margin-left: 1%;
+}
+
+.likes{
+  margin: 1%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+
+.heart-icon{
+  width:3%;
+  height: 1.5vw;
+}
+
+.heart-icon:hover{
+  cursor: pointer;
+}
+
+.likes-no{
+  margin-left: 2%;
+}
