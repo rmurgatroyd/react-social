@@ -49,3 +49,20 @@ align-items: center;
 .likes-no{
   margin-left: 2%;
 }
+
+@media only screen and (max-width: 1023px){
+  .social-cards{
+    margin-left: 10%;
+    width: 80%;
+  }
+
+  .social-image{
+    height: 80vw;
+
+  }
+
+  .heart-icon{
+    width:5%;
+    height: 4vw;
+  }
+}
